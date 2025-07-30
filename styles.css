@@ -9,3 +9,15 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
