@@ -28,3 +28,11 @@ function intToRoman(num) {
 
   return result;
 }
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("number")
+      .addEventListener("keyup", function(event) {
+          if (event.key === "Enter") {
+              convertClick();
+          }
+    });
+  });

@@ -17,7 +17,7 @@ h1 {
 
 #main-content {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -39,6 +39,8 @@ h1 {
     background-color: #ec9bf7;
     color: #ffffff;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .button:hover {
@@ -47,6 +49,7 @@ h1 {
 
 #output {
     margin-top: 20px;
-    font-size: large;
-    color: #333333;
+    font-size: 1em;
+    font-family: monospace;
+    color: #ec9bf7;
 }
