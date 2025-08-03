@@ -5,9 +5,9 @@ function convertClick() {
   if (inputNum.value == "") {
     outputDiv.innerHTML = "Please enter a valid number";
   } else if (inputNum.value < 0) {
-    outputDiv.innerHTML = "Please enter a number greater than or equal to 1";
+    outputDiv.innerHTML = "Please enter a number greater than or equal to 1.";
   }  else if (inputNum.value > 3999) {
-    outputDiv.innerHTML = "Please enter a number less than or equal to 3999";
+    outputDiv.innerHTML = "Please enter a number less than or equal to 3999.";
   } else if (Number.isInteger(parseInt(inputNum.value, 10))){
     outputDiv.innerHTML = intToRoman(inputNum.value).toString();
   }
